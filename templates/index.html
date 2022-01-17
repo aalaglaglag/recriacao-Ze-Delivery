@@ -7,6 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.0/chart.min.js"></script>
     <link rel='stylesheet' type="text/css" href="{{ url_for('static',filename='cssdoc.css') }}">
+    <!-- roboto fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+    
     <title>Chartjs</title>
     <style>
       
@@ -14,18 +19,6 @@
     </style>
 </head>
 <body>
-    <!---- >
-    <div class="sidebar" style="width:15%">
-        <a href="#" class="w3-bar-item w3-button">Link 1</a>
-        <a href="#" class="w3-bar-item w3-button">Link 2</a>
-        <a href="#" class="w3-bar-item w3-button">Link 3</a>
-      </div>
-      
-
-      <div style="margin-left:15%">
-      
-      </div>
-        -->
     <header class="bg">
         <img src="{{ url_for('static',filename='img/cima2.png') }}">
     </header>
@@ -60,6 +53,8 @@
                     <span class="menu-line"></span>
                 </div>
 
+                
+
                 </label>
                 <div class="ham-menu">
                 <ul class="centre-text bold-text">
@@ -78,7 +73,46 @@
         </div>
             
     </div>
+
+
+    <div class="container">
+        <texto class="texto2">
+            <h1>Como funciona o Zé Delivery?</h1>
+        </texto>
+        
+        <img1 class="img1">
+            <img src="{{ url_for('static',filename='img/delivery-man.png') }}" height="112px" width="112px" alt="onde voce estiver" >
+            <h2 class="textoCharts">Onde você estiver</h2>
+            <h3>Achamos as bebidas geladinhas na sua área e levamos até você!</h3>
+
+        </img1>
+
+        <main class="img1">
+            <img src="{{ url_for('static',filename='img/sacolinha.png') }}" height="112px" width="112px">
+            <h2 class="textoCharts">Só as favoritas</h2>
+            <h3>Você pode escolher entre cervejas, vinhos, água, energéticos, refrigerantes, salgadinhos e até gelo!</h3>
+        </main>
+
+        <aside class="img1">
+            <img src="{{ url_for('static',filename='img/double_cellphone_greeting.png') }}" height="112px" width="112px">
+            <h2 class="textoCharts">Facilita seu brinde</h2>
+            <h3>Suas bebidas chegam geladinhas e super rápidas, prontas para brindar!</h3>
+        </aside>
+        
+        <div class="espacamento32px"></div>
+
+        <div class="ofertasProdutos">
+            
+        </div>
+    </div>
+
+
+
+
+
+
     
+    <!--
     <div class="graficor">
         <div style="width: 600px; height: 300px;">
         <canvas id="lineChart"></canvas>
@@ -206,6 +240,7 @@
 
 
     </script>
-    
+    -->
+
 </body>
 </html>

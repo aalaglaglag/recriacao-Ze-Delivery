@@ -18,6 +18,7 @@
     --box-shadow: 0px 0px 3px 5px var(--box-shadow-color);
     --border-radius: 60px 5px;
     --fade-green: rgba(57, 87, 64, 0.55);
+    
   }
   *,
   *::before,
@@ -32,6 +33,7 @@ body,
 html{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 .sidebar {
     margin: 0;
@@ -78,12 +80,60 @@ html{
             align-content: center;
         }
 
+        
+
+        .textoCharts{
+          text-align: center;
+          color: #333;
+          height: 51px;
+          font-size: 24px;
+        }
+        .img1{
+          justify-content: center;
+          margin: auto;
+          text-align: center;
+          font-size: 13px;
+          color: #666;
+        }
+
+        
+        .container{
+          display: grid;
+          grid-template-columns: 288px 265px 288px;
+          grid-template-rows: 16vh 221px;
+          grid-column-gap: 114px;
+          max-width: 1200px;
+          justify-content: center;
+          margin: 0 auto;
+
+        }
+
+        
+
+        .espacamento32px{
+          height: 32px;
+          width: 1200px;
+          margin-left: -66px;
+        }
+        
         .texto{
-            width: 100%;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            margin-top: 120px;
-            font-weight: 400;
-            
+          width: 100%;
+          font-family: 'Roboto', sans-serif;
+          margin-top: 72px;
+          font-weight: 400;
+          max-width: 500px;
+          align-self: center;
+          height: 109px;
+          color: #333;
+          font-size: 36px;
+        }
+
+        .texto2{
+          grid-column: 1/4;
+          align-self: center;
+          text-align: center;
+          margin-top: -17px;
+          color: #333;
         }
 
         .inputlocal{
