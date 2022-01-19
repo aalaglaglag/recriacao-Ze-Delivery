@@ -96,8 +96,9 @@ html{
           color: #666;
         }
 
+
         
-        .container{
+        .gridFunciona{
           display: grid;
           grid-template-columns: 288px 265px 288px;
           grid-template-rows: 16vh 221px;
@@ -108,14 +109,104 @@ html{
 
         }
 
-        
+        .cardsProdutos{
+          display: flex;
+          justify-content: center;
+          height: 286px;
+          width: 251px;
+          padding: 0px;
+          margin-bottom: 10px;
 
+        }
+        
+        .linha{
+          margin-left: -13px;
+          margin-top: 11px;
+          width: inherit;
+          border: 1px solid rgb(243,243,243);
+        }
+
+        .flexProdutos{
+          display: flex;
+          box-sizing: border-box;
+          justify-content: center;
+
+        }
+
+        .containerFlex{
+          max-width: 1200px;
+
+          /*margin-left: auto;*/
+          height: 379px;
+          min-width: 275px;
+          width: 275px;
+          position: relative;
+          border-radius: 8px;
+          box-sizing: border-box;
+          background-color: #FFFFFF;
+          margin-top: 4px;
+          margin-right: 4px;
+          margin-bottom: 16px;
+          padding: 16px;
+          border-radius: 8px;
+          box-shadow: 0 2px 4px 0 rgb(0 0 0 / 15%);
+        }
+
+        .flexProdutosDisponiveis{
+          max-width: 1168px;
+          box-sizing: border-box;
+          width: 100%;
+          flex-direction: column;
+          display: flex;
+          -webkit-box-pack: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          align-items: center;
+          background: #f3e8bf;
+          text-align: center;
+          /* margin: 16px; */
+          margin-top: 16px;
+          margin-bottom: 16px;
+          margin-left: auto;
+          margin-right: auto;
+          /* margin-right: 350px; */
+          padding: 16px;
+        }
+
+        .nomeProduto{
+          flex: auto;
+          height: 43px;
+          display: flex;
+          align-items:center;
+        }
+
+        .card{
+          height: 364px;
+          width: 275px;
+          background: #FFFFFF;
+          box-shadow: 0 2px 11px 0 rgb(0 0 0 / 15%);
+          border: #FFFFFF;
+          padding: 11px;
+          border-radius: 8px;
+          margin-right: 10px;
+          margin-left: 10px;
+
+        }
+
+        .card-texto{
+          margin-left: -16px;
+        }
+        
+        
         .espacamento32px{
           height: 32px;
           width: 1200px;
-          margin-left: -66px;
+          margin-left: 350px;
+          margin-right: 350px;
         }
         
+        
+
         .texto{
           width: 100%;
           font-family: 'Roboto', sans-serif;
@@ -134,8 +225,25 @@ html{
           text-align: center;
           margin-top: -17px;
           color: #333;
+        }           
+
+        .texto3{
+          color: #333;
+          font-size: 24px;
+          margin-bottom: 20px;
+          text-align: center;
         }
 
+        .texto4Produto{
+          letter-spacing: 0;
+          line-height: 24px;
+          color: #333;
+          font-size: 16px;
+          font-weight: 400;
+          padding-left: 16px;
+          padding-top: 16px;
+          padding-bottom: 16px;
+        }
         .inputlocal{
             width: 592px;
             height: 48px;
@@ -153,7 +261,26 @@ html{
             outline: 0;
             padding-left: 90px;
         }
+
+        .botaoProdutosDisponiveis{
+          outline: none;
+          border-radius: 24px;
+          font-size: 14px;
+          padding: 12px;
+          font-family: Roboto;
+          line-height: 20px;
+          text-transform: uppercase;
+          margin-left: auto;
+          margin-right: auto;
+          color: #000000;
+          background-color: #FFC500;
+          border: 1px solid #FFC500;
+        }
         
+        .redirecionamento{
+          cursor: pointer;
+          text-decoration: none;
+        }
 .graficor { 
     display:flex;
     justify-content:center;
@@ -289,7 +416,7 @@ html{
     letter-spacing: 0.1em;
     font-family: "OpenSansCondensed-Light";
   }
-  a {
+  .aSidebar{
     font-size: 1.6rem;
     line-height: 1.5em;
     word-spacing: 0.5em;
@@ -300,7 +427,7 @@ html{
     padding: 7px;
     color: var(--icon-hover-bg);
   }
-  a::after {
+  .adosidebar {
     content: "\e806";
     display: inline-block;
     font-family: fontello;

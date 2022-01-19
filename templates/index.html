@@ -75,7 +75,7 @@
     </div>
 
 
-    <div class="container">
+    <div class="gridFunciona">
         <texto class="texto2">
             <h1>Como funciona o Zé Delivery?</h1>
         </texto>
@@ -99,12 +99,68 @@
             <h3>Suas bebidas chegam geladinhas e super rápidas, prontas para brindar!</h3>
         </aside>
         
+        
+            
+    </div>
         <div class="espacamento32px"></div>
 
-        <div class="ofertasProdutos">
-            
+        <div class="flexProdutosDisponiveis">
+            <h2 class="texto3">Você pode conferir ofertas exclusivas no seu endereço</h2>
+            <button type="button" class="botaoProdutosDisponiveis">Ver produtos disponíveis</button>
         </div>
-    </div>
+
+        <div class="espacamento32px"></div>
+        <h2 class="texto3">Produtos que você encontra no Zé</h2>
+        
+        <div class="flexProdutos">
+            <a class="redirecionamento" href="{{ url_for('static',filename='img/delivery-man.png') }}">
+                <div class="card">
+                    <div>
+                        <img class="cardsProdutos" src="{{ url_for('static',filename='img/Guilherme.jpeg') }}" >
+                    </div>
+                    <hr class="linha">
+                    <div class="card-texto">
+                        <h2 class="texto4Produto">Energéticos</h2>
+                    </div>
+                </div>
+            </a>
+            
+            <a class="redirecionamento" href="{{ url_for('static',filename='img/delivery-man.png') }}">
+                <div class="card">
+                    <div>
+                        <img class="cardsProdutos" src="{{ url_for('static',filename='img/Guilherme.jpeg') }}" >
+                    </div>
+                    <hr class="linha">
+                    <div class="card-texto">
+                        <h2 class="texto4Produto">Energéticos</h2>
+                    </div>
+                </div>
+            </a>
+
+            <a class="redirecionamento" href="{{ url_for('static',filename='img/delivery-man.png') }}">
+                <div class="card">
+                    <div>
+                        <img class="cardsProdutos" src="{{ url_for('static',filename='img/Guilherme.jpeg') }}" >
+                    </div>
+                    <hr class="linha">
+                    <div class="card-texto">
+                        <h2 class="texto4Produto">Energéticos</h2>
+                    </div>
+                </div>
+            </a>
+
+            <a class="redirecionamento" href="{{ url_for('static',filename='img/delivery-man.png') }}">
+                <div class="card">
+                    <div>
+                        <img class="cardsProdutos" src="{{ url_for('static',filename='img/Guilherme.jpeg') }}" >
+                    </div>
+                    <hr class="linha">
+                    <div class="card-texto">
+                        <h2 class="texto4Produto">Energéticos</h2>
+                    </div>
+                </div>
+            </a>
+        </div>
 
 
 
