@@ -29,6 +29,11 @@
     list-style: none;
   }
 
+a{
+  cursor:pointer;
+  text-decoration: none;
+}
+
 body,
 html{
     margin: 0;
@@ -58,7 +63,7 @@ html{
             padding-left: 3rem;
         }
 
-        .sofadesexo{
+        .sofazin{
             text-align: center;
             height: 539px;
             width: 100%;
@@ -109,6 +114,15 @@ html{
 
         }
 
+        .gridCidades{
+          display: grid;
+          grid-template-columns: repeat(auto-fit,minmax(189px,1fr));
+          margin-top: 20px;
+          grid-row-gap: 8px;
+          grid-auto-rows: 40px;
+          align-items: center;
+        }
+
         .cardsProdutos{
           display: flex;
           justify-content: center;
@@ -130,27 +144,9 @@ html{
           display: flex;
           box-sizing: border-box;
           justify-content: center;
-
         }
 
-        .containerFlex{
-          max-width: 1200px;
 
-          /*margin-left: auto;*/
-          height: 379px;
-          min-width: 275px;
-          width: 275px;
-          position: relative;
-          border-radius: 8px;
-          box-sizing: border-box;
-          background-color: #FFFFFF;
-          margin-top: 4px;
-          margin-right: 4px;
-          margin-bottom: 16px;
-          padding: 16px;
-          border-radius: 8px;
-          box-shadow: 0 2px 4px 0 rgb(0 0 0 / 15%);
-        }
 
         .flexProdutosDisponiveis{
           max-width: 1168px;
@@ -196,16 +192,57 @@ html{
         .card-texto{
           margin-left: -16px;
         }
+
+
+        .gridGenericos{
+          max-width: 1168px;
+          margin-left: auto;
+          margin-right: auto;
+          display: grid;
+          grid-template-columns: repeat(auto-fit,minmax(288px,1fr));
+          grid-column-gap: 32px;
+          grid-row-gap: 8px;
+          padding-top: 16px;
+        }
+
+        .padraoGenericos{
+          height: 72px;
+          display: flex;
+          cursor: pointer;
+          -webkit-align-items: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          padding: 16px;
+          background-color: #F5F5F5;
+        }
         
+        .imgGenericos{
+          height: 24px;
+          width: 24px;
+        }
+
+        .backgroundCidades{
+          text-align: center;
+          max-width: 1168px;
+          margin: 16px;
+          padding: 16px;
+          background-color: #F5F5F5;
+          margin-left: auto;
+          margin-right: auto;
+        }
         
         .espacamento32px{
           height: 32px;
           width: 1200px;
-          margin-left: 350px;
-          margin-right: 350px;
+          margin-left: auto;
+          margin-right: auto;
         }
         
-        
+        .listaCidades{
+          text-align: center;
+          list-style: none;
+        }
 
         .texto{
           width: 100%;
@@ -244,6 +281,30 @@ html{
           padding-top: 16px;
           padding-bottom: 16px;
         }
+
+        .textoGenericos{
+          font-size: 20px;
+          font-weight: bold;
+          color: #333;
+          padding-left: 16px;
+        }
+
+        .textoCidades{
+          color: #333;
+          font-size: 24px;
+          margin-top: 4px;
+        }
+
+        .nomeCidades{
+          width: 99%;
+          text-align: center;
+          line-height: 20px;
+          letter-spacing: 0px;
+          text-decoration: underline;
+          color:#333;
+          font-size: 16px;
+        }
+
         .inputlocal{
             width: 592px;
             height: 48px;
@@ -421,16 +482,15 @@ html{
     line-height: 1.5em;
     word-spacing: 0.5em;
     letter-spacing: 0.1em;
-    font-family: "OpenSansCondensed-Light";
+    font-family: "Roboto", sans-serif;
     display: inline;
-    font-weight: bold;
     padding: 7px;
     color: var(--icon-hover-bg);
   }
   .adosidebar {
     content: "\e806";
     display: inline-block;
-    font-family: fontello;
+    font-family: "Roboto", sans-serif;
     padding: 5px;
     font-size: 1.6rem;
     transform: rotate(-90deg);
