@@ -246,6 +246,10 @@ html{
           padding-right: 0;
           position: absolute;
         }
+
+        .espacoEsquerda{
+          margin-left: 15px;
+        }
         
         .espacamento32px{
           height: 32px;
@@ -253,6 +257,7 @@ html{
           margin-left: auto;
           margin-right: auto;
         }
+        
         
         .listaCidades{
           text-align: center;
@@ -317,9 +322,16 @@ html{
         
 
         .textoApps{
-          font-size: 44px;
+          font-size: 38px;
           line-height: 38px;
           color: #333;
+        }
+
+        .textoAppps{
+          margin-top: 20px;
+          margin-bottom: 15px;
+          font-weight: 500;
+          font-size: inherit;
         }
 
         .nomeCidades{
@@ -363,6 +375,20 @@ html{
           color: #000000;
           background-color: #FFC500;
           border: 1px solid #FFC500;
+        }
+
+        .botaoVoltaAoTopo{
+          color: white;
+          text-align: center;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 56px;
+        }
+
+        .backVoltaAoTopo{
+          height: 56px;
+          width: 100%;
+          background-color: #666;
         }
         
         .redirecionamento{
