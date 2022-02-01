@@ -247,8 +247,18 @@ html{
           position: absolute;
         }
 
+        .SidebarDownloadApp{
+          width: auto;
+          position: absolute;
+          bottom: 69px;
+        }
+
         .espacoEsquerda{
           margin-left: 15px;
+        }
+
+        .espacoCima{
+          margin-top: 10px;
         }
         
         .espacamento32px{
@@ -334,6 +344,12 @@ html{
           font-size: inherit;
         }
 
+        .SidebarTextoApps{
+          font-size: 20px;
+          line-height: 37px;
+          color: rgb(97, 97, 97);
+        }
+
         .nomeCidades{
           width: 99%;
           text-align: center;
@@ -390,6 +406,15 @@ html{
           width: 100%;
           background-color: #666;
         }
+
+        .backFinal{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          position: absolute;
+          background-color: #333;
+        }
         
         .redirecionamento{
           cursor: pointer;
@@ -422,15 +447,15 @@ html{
     width: 20vw;
     height: 100%;
     position: fixed;
-    top: 0;
+    top: 62px;
     visibility: hidden;
     transform: translate(-110%);
     z-index: 998;
     background-color: var(--background-sidebar);
     transition: 1s;
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
     align-items: center;
+    flex-direction: column;
   }
   .ham-menu > ul {
     display: flex;
@@ -438,6 +463,7 @@ html{
     justify-content: space-around;
     padding: 20px;
     height: 50%;
+    margin-top: 50%;
   }
   .ham-menu > ul > li {
     font-size: 2rem;
