@@ -420,6 +420,55 @@ html{
           cursor: pointer;
           text-decoration: none;
         }
+
+        .espacamento16px{
+          height: 16px;
+        }
+
+        
+        .gridFinal{
+          display: grid;
+          grid-template-columns: 288px 288px 288px 288px;
+          grid-template-rows: 164px;
+          column-gap: 1%;
+          padding: 24px;
+          width: 1200px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        .PrimeiraGd{
+          display: grid;
+          justify-content: start;
+          align-content: start;
+        }
+
+        .redesSociais{
+          width: 176;
+          display: flex;
+          -webkit-box-pack: justify;
+          -webkit-justify-content: space-between;
+        }
+
+        .SegundaGd{
+          display: grid;
+          justify-content: center;
+          align-content: start;
+        }
+        
+        .iconesFinal{
+          background-color: #709680;
+          justify-content: start;
+          align-content: start;
+          display: grid;
+        }
+        
+        .figuraZé{
+          padding: 0px;
+          margin: 0;
+          display: flex;
+        }
+
 .graficor { 
     display:flex;
     justify-content:center;
