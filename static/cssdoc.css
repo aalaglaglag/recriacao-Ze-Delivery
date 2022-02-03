@@ -344,6 +344,24 @@ html{
           font-size: inherit;
         }
 
+        .textoSobreZe{
+          color: #FFFFFF;
+          font-size: 16px;
+          line-height: 20px;
+        }
+
+        .textoLinksZe{
+          margin-top: 16px;
+          font-size: 15px;
+          color: #FFFFFF;
+          font-weight: normal;
+          text-decoration: underline;
+        }
+
+        .aLinks{
+          text-decoration: underline;
+        }
+
         .SidebarTextoApps{
           font-size: 20px;
           line-height: 37px;
