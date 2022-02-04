@@ -130,6 +130,7 @@ html{
           width: 251px;
           padding: 0px;
           margin-bottom: 10px;
+          object-fit: cover;
 
         }
         
@@ -169,10 +170,19 @@ html{
           padding: 16px;
         }
 
+        .backgroundCelular{
+          background-image: url("../static/img/haha.jpeg");
+          width: 100%;
+          height: 450px;
+          
+        }
+
         .flexCelularApp{
           display: flex;
           position: relative;
           flex-direction: column;
+          background-image:url("../static/img/haha.jpeg");
+          background-size: auto;
         }
 
         .nomeProduto{
@@ -448,7 +458,6 @@ html{
           display: grid;
           grid-template-columns: 288px 288px 288px 288px;
           grid-template-rows: 164px;
-          column-gap: 1%;
           padding: 24px;
           width: 1200px;
           margin-left: auto;
@@ -473,6 +482,13 @@ html{
           justify-content: center;
           align-content: start;
         }
+
+        .UltimaGd{
+          display:grid;
+          justify-content: end;
+          align-content: end;
+        }
+        
         
         .iconesFinal{
           background-color: #709680;

@@ -80,7 +80,7 @@
                 </div>
             
 
-            <input class="inputlocal" type="text" placeholder="3kg de sexo por favor">
+            <input class="inputlocal" type="text" placeholder="Inserir endereço para ver preço">
         </div>
             
     </div>
@@ -124,10 +124,10 @@
         <h2 class="texto3">Produtos que você encontra no Zé</h2>
         
         <div class="flexProdutos">
-            <a class="redirecionamento" href="{{ url_for('static',filename='img/delivery-man.png') }}">
+            <a class="redirecionamento" href="{{ url_for('static',filename='img/energetico.png') }}">
                 <div class="card">
                     <div>
-                        <img class="cardsProdutos" src="{{ url_for('static',filename='img/Guilherme.jpeg') }}" >
+                        <img class="cardsProdutos" src="{{ url_for('static',filename='img/energetico.png') }}" >
                     </div>
                     <hr class="linha">
                     <div class="card-texto">
@@ -136,10 +136,10 @@
                 </div>
             </a>
             
-            <a class="redirecionamento" href="{{ url_for('static',filename='img/delivery-man.png') }}">
+            <a class="redirecionamento" href="{{ url_for('static',filename='img/sucos.png') }}">
                 <div class="card">
                     <div>
-                        <img class="cardsProdutos" src="{{ url_for('static',filename='img/crash.jpg') }}" >
+                        <img class="cardsProdutos" src="{{ url_for('static',filename='img/sucos.png') }}" >
                     </div>
                     <hr class="linha">
                     <div class="card-texto">
@@ -148,10 +148,10 @@
                 </div>
             </a>
 
-            <a class="redirecionamento" href="{{ url_for('static',filename='img/delivery-man.png') }}">
+            <a class="redirecionamento" href="{{ url_for('static',filename='img/gelos.png') }}">
                 <div class="card">
                     <div>
-                        <img class="cardsProdutos" src="{{ url_for('static',filename='img/3noites.jpg') }}" >
+                        <img class="cardsProdutos" src="{{ url_for('static',filename='img/gelos.png') }}" >
                     </div>
                     <hr class="linha">
                     <div class="card-texto">
@@ -160,10 +160,10 @@
                 </div>
             </a>
 
-            <a class="redirecionamento" href="{{ url_for('static',filename='img/delivery-man.png') }}">
+            <a class="redirecionamento" href="{{ url_for('static',filename='img/amendoins.png') }}">
                 <div class="card">
                     <div>
-                        <img class="cardsProdutos" src="{{ url_for('static',filename='img/pdro.jpeg') }}" >
+                        <img class="cardsProdutos" src="{{ url_for('static',filename='img/amendoins.png') }}" >
                     </div>
                     <hr class="linha">
                     <div class="card-texto">
@@ -360,24 +360,23 @@
     
     <div class="espacamento32px"></div>
 
-    <div class="flexCelularApp">
-        <div class="padrao">
-            <div class="downloadApp">
-                <h2 class="textoApps">Já baixou o app?</h2>
-                <h3 class="textoAppps">Entregamos onde estiver, através de nosso parceiro mais próximo de você.</h3>
-                
-                <a href="https://play.google.com/store/apps/details?id=com.cerveceriamodelo.modelonow&referrer=af_tranid%3D_IkGcksVke_H_8Q3CNWROQ%26shortlink%3D488889bc%26pid%3DZ%C3%A9%20Website%26af_channel%3DWebsite%26af_ad%3DWelcome%20Page%20Banner%26af_sub1%3DAndroid%26af_web_id%3Df2f3ece2-d9ad-410c-8a37-62f7b71aeb31-o">
-                <img width="190" height="56" src="{{ url_for('static',filename='img/play_store_badge.png') }}"></img>
-                </a>
+    <div class="backgroundCelular">
+        <div class="flexCelularApp">
+            <div class="padrao">
+                <div class="downloadApp">
+                    <h2 class="textoApps">Já baixou o app?</h2>
+                    <h3 class="textoAppps">Entregamos onde estiver, através de nosso parceiro mais próximo de você.</h3>
+                    
+                    <a href="https://play.google.com/store/apps/details?id=com.cerveceriamodelo.modelonow&referrer=af_tranid%3D_IkGcksVke_H_8Q3CNWROQ%26shortlink%3D488889bc%26pid%3DZ%C3%A9%20Website%26af_channel%3DWebsite%26af_ad%3DWelcome%20Page%20Banner%26af_sub1%3DAndroid%26af_web_id%3Df2f3ece2-d9ad-410c-8a37-62f7b71aeb31-o">
+                    <img width="190" height="56" src="{{ url_for('static',filename='img/play_store_badge.png') }}"></img>
+                    </a>
 
-                <a class="espacoEsquerda" href="https://apps.apple.com/BR/app/id1070070438?mt=8">
-                <img width="190" height="56" src="{{ url_for('static',filename='img/apple_store_badge.png') }}"></img>
-                </a>
+                    <a class="espacoEsquerda" href="https://apps.apple.com/BR/app/id1070070438?mt=8">
+                    <img width="190" height="56" src="{{ url_for('static',filename='img/apple_store_badge.png') }}"></img>
+                    </a>
+                </div>
             </div>
         </div>
-        
-        <img src="{{ url_for('static',filename='img/haha.jpeg') }}" height="450px" width="100%">
-
     </div>
 
     <div class="backVoltaAoTopo">
@@ -403,17 +402,36 @@
             </div>
             <div class="SegundaGd">
                 <h4 class="textoSobreZe">Sobre o Zé Delivery</h4>
-                <a href="https://play.google.com/store/apps/details?id=com.cerveceriamodelo.modelonow&referrer=af_tranid%3D_IkGcksVke_H_8Q3CNWROQ%26shortlink%3D488889bc%26pid%3DZ%C3%A9%20Website%26af_channel%3DWebsite%26af_ad%3DWelcome%20Page%20Banner%26af_sub1%3DAndroid%26af_web_id%3Df2f3ece2-d9ad-410c-8a37-62f7b71aeb31-o"></a>
+                <a href="https://play.google.com/store/apps/details?id=com.cerveceriamodelo.modelonow&referrer=af_tranid%3D_IkGcksVke_H_8Q3CNWROQ%26shortlink%3D488889bc%26pid%3DZ%C3%A9%20Website%26af_channel%3DWebsite%26af_ad%3DWelcome%20Page%20Banner%26af_sub1%3DAndroid%26af_web_id%3Df2f3ece2-d9ad-410c-8a37-62f7b71aeb31-o">
                     <h5 class="textoLinksZe">Me ajuda, Zé!</h5>
                 </a>
-                <a href="https://play.google.com/store/apps/details?id=com.cerveceriamodelo.modelonow&referrer=af_tranid%3D_IkGcksVke_H_8Q3CNWROQ%26shortlink%3D488889bc%26pid%3DZ%C3%A9%20Website%26af_channel%3DWebsite%26af_ad%3DWelcome%20Page%20Banner%26af_sub1%3DAndroid%26af_web_id%3Df2f3ece2-d9ad-410c-8a37-62f7b71aeb31-o"></a>
+                <a href="https://play.google.com/store/apps/details?id=com.cerveceriamodelo.modelonow&referrer=af_tranid%3D_IkGcksVke_H_8Q3CNWROQ%26shortlink%3D488889bc%26pid%3DZ%C3%A9%20Website%26af_channel%3DWebsite%26af_ad%3DWelcome%20Page%20Banner%26af_sub1%3DAndroid%26af_web_id%3Df2f3ece2-d9ad-410c-8a37-62f7b71aeb31-o">
                     <h5 class="textoLinksZe">Trabalhe conosco</h5>
                 </a>
-                <a href="https://play.google.com/store/apps/details?id=com.cerveceriamodelo.modelonow&referrer=af_tranid%3D_IkGcksVke_H_8Q3CNWROQ%26shortlink%3D488889bc%26pid%3DZ%C3%A9%20Website%26af_channel%3DWebsite%26af_ad%3DWelcome%20Page%20Banner%26af_sub1%3DAndroid%26af_web_id%3Df2f3ece2-d9ad-410c-8a37-62f7b71aeb31-o"></a>
+                <a href="https://play.google.com/store/apps/details?id=com.cerveceriamodelo.modelonow&referrer=af_tranid%3D_IkGcksVke_H_8Q3CNWROQ%26shortlink%3D488889bc%26pid%3DZ%C3%A9%20Website%26af_channel%3DWebsite%26af_ad%3DWelcome%20Page%20Banner%26af_sub1%3DAndroid%26af_web_id%3Df2f3ece2-d9ad-410c-8a37-62f7b71aeb31-o">
                     <h5 class="textoLinksZe">Pagamento na Entrega</h5>
                 </a>
-                <a href="https://play.google.com/store/apps/details?id=com.cerveceriamodelo.modelonow&referrer=af_tranid%3D_IkGcksVke_H_8Q3CNWROQ%26shortlink%3D488889bc%26pid%3DZ%C3%A9%20Website%26af_channel%3DWebsite%26af_ad%3DWelcome%20Page%20Banner%26af_sub1%3DAndroid%26af_web_id%3Df2f3ece2-d9ad-410c-8a37-62f7b71aeb31-o"></a>
+                <a href="https://play.google.com/store/apps/details?id=com.cerveceriamodelo.modelonow&referrer=af_tranid%3D_IkGcksVke_H_8Q3CNWROQ%26shortlink%3D488889bc%26pid%3DZ%C3%A9%20Website%26af_channel%3DWebsite%26af_ad%3DWelcome%20Page%20Banner%26af_sub1%3DAndroid%26af_web_id%3Df2f3ece2-d9ad-410c-8a37-62f7b71aeb31-o">
                     <h5 class="textoLinksZe">Cidades atendidas</h5>
+                </a>
+            </div>
+
+            <div class="SegundaGd">
+                <h4 class="textoSobreZe">Parceirias</h4>
+                <a href="https://play.google.com/store/apps/details?id=com.cerveceriamodelo.modelonow&referrer=af_tranid%3D_IkGcksVke_H_8Q3CNWROQ%26shortlink%3D488889bc%26pid%3DZ%C3%A9%20Website%26af_channel%3DWebsite%26af_ad%3DWelcome%20Page%20Banner%26af_sub1%3DAndroid%26af_web_id%3Df2f3ece2-d9ad-410c-8a37-62f7b71aeb31-o">
+                    <h5 class="textoLinksZe">Quero ser parceiro</h5>
+                </a>
+            </div>
+
+            <div class="UltimaGd">
+                <h4 class="textoSobreZe">Já baixou o aplicativo?</h4>
+                
+                <a href="https://play.google.com/store/apps/details?id=com.cerveceriamodelo.modelonow&referrer=af_tranid%3D_IkGcksVke_H_8Q3CNWROQ%26shortlink%3D488889bc%26pid%3DZ%C3%A9%20Website%26af_channel%3DWebsite%26af_ad%3DWelcome%20Page%20Banner%26af_sub1%3DAndroid%26af_web_id%3Df2f3ece2-d9ad-410c-8a37-62f7b71aeb31-o">
+                    <img class="espacoCima" width="136" height="40" src="{{ url_for('static',filename='img/play_store_badge.png') }}"></img>
+                </a>
+    
+                <a href="https://apps.apple.com/BR/app/id1070070438?mt=8">
+                    <img class="espacoCima" width="136" height="40" src="{{ url_for('static',filename='img/apple_store_badge.png') }}"></img>
                 </a>
             </div>
         </div>
