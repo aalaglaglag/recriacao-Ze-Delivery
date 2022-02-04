@@ -171,18 +171,18 @@ html{
         }
 
         .backgroundCelular{
-          background-image: url("../static/img/haha.jpeg");
+          background-image: url(../static/img/maluma_baixo_desktop.png);
+          bottom: 0px;
           width: 100%;
           height: 450px;
-          
+          background-size: cover;
+          background-repeat: no-repeat;
         }
 
         .flexCelularApp{
           display: flex;
           position: relative;
           flex-direction: column;
-          background-image:url("../static/img/haha.jpeg");
-          background-size: auto;
         }
 
         .nomeProduto{
