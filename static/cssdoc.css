@@ -368,6 +368,14 @@ html{
           text-decoration: underline;
         }
 
+        .linhaUltima{
+          margin: 0;
+          border-bottom:none;
+          border-top: 1px solid #666;
+          width: 1200px;
+          margin-bottom: 12px;
+        }
+
         .aLinks{
           text-decoration: underline;
         }
@@ -503,6 +511,24 @@ html{
           display: flex;
         }
 
+
+        .b123{
+          -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+          /* flex-direction: row; */
+          -webkit-box-pack: justify;
+          -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+          justify-content: space-between;
+        }
+
+        .b1234{
+          display: inherit;
+        }
+
+        .a123{
+          color: #FFFFFF;
+        }
 .graficor { 
     display:flex;
     justify-content:center;
