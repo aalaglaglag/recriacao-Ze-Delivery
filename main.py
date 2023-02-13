@@ -8,7 +8,7 @@ if __name__== 'main':
     port = int(os.getenv('PORT'), '5000')
     app.run(host='0.0.0.0', port = port)
 
-@app.route("/", methods=['GET', 'POST'])
+@app.route("https://github.com/aalaglaglag/recriacao-Ze-Delivery/settings/pages", methods=['GET', 'POST'])
 def home():
     return render_template("index.html")
 
